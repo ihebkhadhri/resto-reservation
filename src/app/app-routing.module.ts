@@ -12,6 +12,8 @@ const routes: Routes = [{path:"home",component:HomeComponent},
 {path:"menu",component:MenuComponent},
 {path:"reservation",component:ReservationComponent},
 {path:"restaurant",component:RestaurantComponent},
+{path:"plat",component:PlatComponent},
+
 {path:"plat", loadChildren: () => import('./plat/plat.module').then(m => m.PlatModule)},
 //{ //path: 'plats', loadChildren: () => import('./plats/plats.module').then(m => m.PlatsModule) },
 ];

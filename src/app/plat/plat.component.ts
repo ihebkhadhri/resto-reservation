@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { plats } from "src/app/plats-list";
+import { plats } from "./plats-list";
 @Component({
   selector: 'app-plat',
   templateUrl: './plat.component.html',
@@ -11,7 +11,7 @@ export class PlatComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    //console.log(this.platsList);
+    console.log(this.platsList);
   }
 
 }
