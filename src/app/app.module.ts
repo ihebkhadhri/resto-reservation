@@ -8,7 +8,6 @@ import { ReservationComponent } from './reservation/reservation.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
-import { PlatComponent } from './plat/plat.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +16,11 @@ import { PlatComponent } from './plat/plat.component';
     ReservationComponent,
     HomeComponent,
     ContactComponent,
-    MenuComponent,
-    PlatComponent
+    MenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
