@@ -13,7 +13,6 @@ export const plats = [
         '2. Éplucher l’échalote et la hacher très finement. Ciseler la ciboulette. Ajouter à la préparation. Saler et poivrer. Mélanger, goûter, et ajuster l’assaisonnement si besoin.',
         '3. Déguster avec des potatoes (recette numéro 6 plus bas)',
 
-
       ],
     },
     {
@@ -50,7 +49,6 @@ export const plats = [
           '2. Éplucher l’échalote et la hacher très finement. Ciseler la ciboulette. Ajouter à la préparation. Saler et poivrer. Mélanger, goûter, et ajuster l’assaisonnement si besoin.',
 
           '3. Déguster avec des potatoes (recette numéro 6 plus bas)',
-
 
         ],
     },
