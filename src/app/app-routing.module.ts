@@ -15,7 +15,6 @@ const routes: Routes = [{path:"home",component:HomeComponent},
 {path:"plat",component:PlatComponent},
 
 {path:"plat", loadChildren: () => import('./plat/plat.module').then(m => m.PlatModule)},
-{ path: 'panier', loadChildren: () => import('./panier/panier.module').then(m => m.PanierModule) },
 //{ //path: 'plats', loadChildren: () => import('./plats/plats.module').then(m => m.PlatsModule) },
 ];
 @NgModule({

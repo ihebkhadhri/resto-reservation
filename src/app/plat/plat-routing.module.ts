@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PlatComponent } from './plat.component';
 
-const routes: Routes = [{ path: '', component: PlatComponent }];
+const routes: Routes = [{ path: 'plat', component: PlatComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
