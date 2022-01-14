@@ -8,7 +8,7 @@ import { HttpClient } from "@angular/common/http";
 export class PlatService {
 
    private apiUrl = 'http://localhost:3000/plats';
-  //private apiUrl = 'https://my-json-server.typicode.com/houcem-h/public_courses_api/courses';
+
 
   constructor(private http: HttpClient) { }
 
